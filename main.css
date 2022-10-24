@@ -1,5 +1,26 @@
-.clearfix::after{
-  content:"";
-  clear:both;
-  display:table;
+.topnav{
+  background-color:#FF8D74;
+  color:#FFF;
+  overflow:hidden;
+  padding-top:5px;
+  padding-bottom:5px;
+  width:100%;
+}
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #eb6e52;
+  color: #fff;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FF8D74;
+  color: white;
 }
