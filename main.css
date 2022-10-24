@@ -54,3 +54,15 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.dropdown-content a{
+  background-color:#ffc6c6;
+  color:black;
+}
+.dropdown-content a:hover{
+  background-color:#ffaeae;
+  color:black;
+}
+.dropdown-content a.active{
+  background-color:#ffc6c6;
+  color:black;
+}
