@@ -25,9 +25,16 @@
   color: white;
 }
 .raidenshogun{
-  background-color:#be95ff;
+  background-color:#dad1e8;
   color:white;
   width:100%;
   padding-top:50%;
-  background-image:"https://faliouca.github.io/raiden%20hehe.webp";
+  background-image:url("https://faliouca.github.io/raiden%20hehe.webp");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.internal{
+  position:absolute;
+  top:25%;
 }
